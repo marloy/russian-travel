@@ -6,7 +6,7 @@
   margin-right: 15px;
 }
 
-.header__lang-link:focus {
+.header__lang-link:hover {
   text-decoration: underline;
 }
 
