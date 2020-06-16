@@ -5,5 +5,5 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  margin-bottom: 56px;
+  margin: 0 48px 56px;
 }
