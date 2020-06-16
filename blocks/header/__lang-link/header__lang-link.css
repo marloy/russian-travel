@@ -1,0 +1,13 @@
+.header__lang-link {
+  text-decoration: none;
+  color: white;
+  margin-right: 15px;
+}
+
+.header__lang-link:focus {
+  text-decoration: underline;
+}
+
+.header__lang-link:last-child {
+  margin-right: 0;
+}
