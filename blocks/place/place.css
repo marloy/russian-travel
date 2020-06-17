@@ -13,3 +13,7 @@
   row-gap: 48px;
   margin-bottom: 80px;
 }
+
+.place:last-child {
+  margin-bottom: 0;
+}
