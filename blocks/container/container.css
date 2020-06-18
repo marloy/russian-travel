@@ -1,4 +1,4 @@
 .container {
-  max-width: 984px;
-  margin: 0 auto;
+  padding: 0 calc(50% - 492px);
+  /* 492px это половина от нужного контента 984px */
 }

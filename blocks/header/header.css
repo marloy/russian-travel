@@ -1,11 +1,30 @@
 @import url(./__lang-link/header__lang-link.css);
 @import url(./__lang-link/_activated/header__lang-link_activated.css);
+@import url(./__logo/header__logo.css);
 
 .header {
   min-height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 0 48px 24px;
+  padding: 0 48px;
   margin-bottom: 56px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    margin-bottom: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    padding: 0 16px;
+  }
 }
