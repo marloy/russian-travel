@@ -27,6 +27,11 @@
     font-size: 40px;
     line-height: 1.1;
     margin-bottom: 16px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .lead__title {
     padding: 0 16px;
   }
 }
