@@ -1,6 +1,7 @@
 .place__title {
   grid-area: title;
-  align-self: end;
+  -ms-grid-row-align: end;
+      align-self: end;
   margin: 0;
   font-weight: 900;
   font-size: 72px;

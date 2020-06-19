@@ -2,7 +2,8 @@
   grid-area: image;
   width: 100%;
   max-width: 460px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media screen and (max-width: 600px) {

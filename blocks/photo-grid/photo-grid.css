@@ -2,9 +2,12 @@
 
 .photo-grid {
   min-height: calc(213px * 3 + 16px * 2);
+  display: -ms-grid;
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, -webkit-max-content));
   grid-template-columns: repeat(auto-fit, minmax(284px, max-content));
   grid-template-rows: repeat(auto-fit, minmax(213px, fit-content(264px)));
+  grid-auto-rows: minmax(213px, -webkit-max-content);
   grid-auto-rows: minmax(213px, max-content);
   grid-gap: 16px;
   padding: 0 48px;
