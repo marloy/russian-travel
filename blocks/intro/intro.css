@@ -4,9 +4,6 @@
 @import url(./__list-number/intro__list-number.css);
 @import url(./__inner/intro__inner.css);
 
-.intro {
-}
-
 @media screen and (max-width: 1080px) {
   .intro {
     padding: 0 48px;

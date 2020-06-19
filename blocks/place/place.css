@@ -51,6 +51,7 @@
     "title"
     "image"
     "text";
+    row-gap: 32px;
     grid-template-columns: 100%;
   }
 }
@@ -58,6 +59,5 @@
 @media screen and (max-width: 320px) {
   .place {
     padding: 0;
-    row-gap: 32px;
   }
 }

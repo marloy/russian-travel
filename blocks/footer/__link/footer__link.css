@@ -1,10 +1,10 @@
 .footer__link {
   margin-right: 18px;
-  transition: ease-out .15s opacity;
   color: white;
   text-decoration: none;
   font-size: 16px;
   line-height: 1.12;
+  transition: ease-out .15s opacity;
 }
 
 .footer__link:last-child {
@@ -12,7 +12,7 @@
 }
 
 .footer__link:hover {
-  opacity: .3;
+  opacity: .8;
 }
 
 @media screen and (max-width: 720px) {
