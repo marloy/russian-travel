@@ -5,13 +5,7 @@
   text-transform: uppercase;
   letter-spacing: 0.15em;
   margin-top: 8px;
-  padding: 0 calc(50% - 492px);
-}
 
-@media screen and (max-width: 1080px) {
-  .lead__caption {
-    padding: 0 42px;
-  }
 }
 
 @media screen and (max-width: 768px) {

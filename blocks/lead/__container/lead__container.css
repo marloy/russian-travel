@@ -1,0 +1,19 @@
+.lead__container {
+  /* padding: 0 calc(50% - 492px); */
+  max-width: 984px;
+  margin: 0 auto;
+  /* 492px это половина от нужного контента 984px */
+}
+
+@media screen and (max-width: 1080px) {
+  .lead__container {
+    padding: 0 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__container {
+    padding: 0;
+    width: 100%;
+  }
+}

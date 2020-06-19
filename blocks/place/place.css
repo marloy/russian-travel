@@ -30,7 +30,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .place {
     grid-template-columns: 340px minmax(min-content, 484px);
     padding: 0 24px;
@@ -39,17 +39,13 @@
   }
 }
 
-@media screen and (max-width: 675px) {
+@media screen and (max-width: 720px) {
   .place {
-    /* grid-template-areas:
-    "title"
-    "image"
-    "text"; */
     grid-template-columns: calc(50% - 16px) minmax(min-content, calc(50% - 16px));
   }
 }
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 600px) {
   .place {
     grid-template-areas:
     "title"
