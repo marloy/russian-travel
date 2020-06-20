@@ -4,7 +4,7 @@
 @import url(./__list-number/intro__list-number.css);
 @import url(./__inner/intro__inner.css);
 
-@media screen and (max-width: 1080px) {
+/* @media screen and (max-width: 1080px) {
   .intro {
     padding: 0 48px;
   }
@@ -20,4 +20,4 @@
   .intro {
     padding: 0 16px;
   }
-}
+} */
