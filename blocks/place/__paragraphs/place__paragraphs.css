@@ -2,8 +2,8 @@
   grid-area: text;
 }
 
-@media screen and (max-width: 320px) {
+/* @media screen and (max-width: 320px) {
   .place__paragraphs {
     padding: 0 16px;
   }
-}
+} */
