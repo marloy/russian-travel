@@ -1,5 +1,4 @@
 .footer__link {
-  margin-right: 18px;
   color: white;
   text-decoration: none;
   font-size: 16px;
@@ -9,22 +8,6 @@
   transition: ease-out .15s opacity;
 }
 
-.footer__link:last-child {
-  margin-right: 0;
-}
-
 .footer__link:hover {
   opacity: .8;
-}
-
-@media screen and (max-width: 720px) {
-  .footer__link {
-    font-size: 24px;
-    line-height: 1;
-    margin-bottom: 32px;
-  }
-
-  .footer__link:last-child {
-    margin-bottom: 48px;
-  }
 }
