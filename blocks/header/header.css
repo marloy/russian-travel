@@ -4,15 +4,9 @@
 @import url(./__list-item/header__list-item.css);
 
 .header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   padding: 24px 48px 10px;
 }
 

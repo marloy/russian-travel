@@ -2,7 +2,6 @@
 
 .photo-grid {
   min-height: 671px;
-  display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 213px);

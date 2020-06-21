@@ -1,6 +1,4 @@
 .cover__background {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
   min-height: 740px;
@@ -24,8 +22,6 @@
   left: 0;
   right: 0;
   bottom: 0;
-  -webkit-transition: ease-out .15s opacity;
-  -o-transition: ease-out .15s opacity;
   transition: ease-out .15s opacity;
 }
 

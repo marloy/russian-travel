@@ -2,8 +2,6 @@
   color: white;
   font-size: 18px;
   line-height: 1.22;
-  -webkit-transition: ease-out .15s opacity;
-  -o-transition: ease-out .15s opacity;
   transition: ease-out .15s opacity;
 }
 
