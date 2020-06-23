@@ -1,5 +1,4 @@
 .content {
   max-width: calc(1280px + 96px);
   margin: 0 auto;
-  box-sizing: border-box;
 }

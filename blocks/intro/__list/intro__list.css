@@ -13,6 +13,7 @@
   .intro__list {
     padding-left: 24px;
     padding-right: 24px;
+    max-width: 720px;
   }
 }
 
