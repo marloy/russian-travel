@@ -7,12 +7,16 @@
 
 @media screen and (max-width: 600px) {
   .place__image {
-    max-width: 600px;
+    max-width: calc(100% - 48px);
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 370px) {
   .place__image {
-    width: 100%;
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
