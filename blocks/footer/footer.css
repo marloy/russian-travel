@@ -1,7 +1,6 @@
 @import url(./__link/footer__link.css);
 @import url(./__copyright/footer__copyright.css);
-@import url(./__navigation/footer__navigation.css);
-@import url(./__list-item/footer__list-item.css);
+@import url(./__link-grid/footer__link-grid.css);
 
 .footer {
   display: flex;
