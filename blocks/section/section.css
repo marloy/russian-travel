@@ -6,10 +6,6 @@
   padding-bottom: 46px;
 }
 
-@media screen and (max-width: 1024px) {
-
-}
-
 @media screen and (max-width: 768px) {
   .section {
     padding-top: 44px;
