@@ -1,8 +1,6 @@
 .header__logo {
   width: 176px;
   height: 52px;
-  position: relative;
-  top: -4px;
 }
 
 @media screen and (max-width: 375px) {
