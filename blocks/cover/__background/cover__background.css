@@ -1,6 +1,7 @@
 .cover__background {
   display: flex;
-  width: 100%;
+  max-width: 1184px;
+  margin: 0 auto;
   min-height: 740px;
   background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
@@ -32,17 +33,12 @@
 @media screen and (max-width: 1024px) {
   .cover__background {
     min-height: 640px;
-    width: calc(100% + 96px);
-    margin-right: -48px;
-    margin-left: -48px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__background {
     min-height: 480px;
-    margin-right: -24px;
-    margin-left: -24px;
   }
 }
 
@@ -55,7 +51,5 @@
 @media screen and (max-width: 375px) {
   .cover__background {
     min-height: 200px;
-    margin-right: -16px;
-    margin-left: -16px;
   }
 }
