@@ -3,6 +3,7 @@
 @import url(./__link-grid/footer__link-grid.css);
 
 .footer {
+  box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

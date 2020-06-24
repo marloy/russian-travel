@@ -4,6 +4,7 @@
 @import url(./__lang-grid/header__lang-grid.css);
 
 .header {
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: center;
